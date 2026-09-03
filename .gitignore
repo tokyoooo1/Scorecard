@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories (Never commit these)
+node_modules/
+jspm_packages/
+web_modules/
+
+# TypeScript cache and build outputs
+*.tsbuildinfo
+dist/
+build/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional Stylelint cache
+.stylelintcache
+
+# Local environment variables config files (Contains secrets, database passwords, keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+srcold/
+
+# macOS system files (Generated automatically by Finder)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Code Editor configurations (Optional but highly recommended)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
